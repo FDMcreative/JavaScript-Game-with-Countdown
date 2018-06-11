@@ -1,0 +1,48 @@
+* {
+  display: ;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: black;
+  font-size: 40px;
+}
+
+title {
+  display: none;
+}
+
+div {
+  margin: 20px auto;
+}
+
+#timer {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  font-size: 50px;
+}
+
+#circle start {
+  background-color: white;
+  color:blue;
+}
+
+#go {
+  border: 2px solid blue;
+  color: blue;
+  background-color: white;
+}
+
+.blueBorder {
+  border: 2px solid blue;
+}
+.colorBlue {
+  color: blue;
+}
+
+.hidden {
+  display: none;
+}
