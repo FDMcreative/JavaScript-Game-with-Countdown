@@ -2,8 +2,8 @@
 ####website: [FDMcreative.com](http://www.fdmcreative.com) 
 ####email: [federico.delmonte@gmail.com](federico.delmonte@gmail.com)
 ---
-# JavaScript-Game-with-Countdown
-### *a small javascript math game with a countdown*
+# JavaScript Math Game with Countdown
+### *a small javascript math game with a 10 seconds countdown*
 -
 
 This small javasctipt project prompts the user with a math question and upon correct answer it shows another one, ad libitum.
@@ -17,3 +17,8 @@ The functionalities are: a countdown timer, a random addition question with numb
 Difficulties:
 
 - After a correct answer has been entered, make the timer resets correctly (start again from 10 AND close the precedent countdown to avoid overlaps).
+
+Not Implemented:
+
+- Use of delay to hide the Match message after 500 milliseconds.
+- Getting out of the mainGame function the sub-functions "if else" because the variables A, B and RESULT remain undefined as declared at the beginning, they don't update with the new numbers. 
